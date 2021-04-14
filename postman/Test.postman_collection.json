@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "ed5769c7-0c32-4368-8506-f5216b09eed0",
+		"name": "Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": []
+		},
+		{
+			"name": "Other",
+			"item": [
+				{
+					"name": "Get some",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "GET test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/test",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"test"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
