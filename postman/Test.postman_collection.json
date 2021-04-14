@@ -24,6 +24,20 @@
 			]
 		},
 		{
+			"name": "Tester",
+			"item": [
+				{
+					"name": "Post some",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				}
+			]
+		},
+		{
 			"name": "GET test",
 			"request": {
 				"method": "GET",
